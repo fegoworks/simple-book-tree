@@ -1,0 +1,21 @@
+@import './variables.scss';
+.App {
+  padding: 0 0.75rem;
+  hr {
+    background-color: $very-light-grey;
+  }
+  
+  .blue-hover {
+    &:hover {
+      background-color: $blue;
+      color: whitesmoke !important;
+      .icon {
+        svg {
+          path {
+            fill: whitesmoke;
+          }
+        }
+      }
+    }
+  }
+}

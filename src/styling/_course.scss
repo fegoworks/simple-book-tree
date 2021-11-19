@@ -1,0 +1,13 @@
+@import './variables';
+
+.courses {
+  .course {
+    margin-bottom: 1rem;
+    .title {
+      color:$light-grey;
+      font-size: 0.75rem;
+      margin: 0.25rem 0;
+      text-transform: uppercase;
+    }
+  }
+}

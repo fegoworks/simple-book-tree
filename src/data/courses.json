@@ -1,0 +1,107 @@
+{
+  "courses": [
+    {
+      "course": "Digital Payments 101",
+      "chapters": [
+        {
+          "title": "Unterschied Kreditkarte vs. Debitkarte als Zahlungsart",
+          "documents": []
+        },
+        {
+          "title": "Kreditkarte: Weltweit bargeldlos bezahlen",
+          "documents": []
+        },
+        {
+          "title": "Debitkarte",
+          "documents": [
+            {
+              "topic": "Wie Kreditkarten funktionieren",
+              "type": "file",
+              "completed": false
+            },
+            {
+              "topic": "Kreditkarte",
+              "type": "text",
+              "completed": false
+            },
+            {
+              "topic": "Virtuelle Karten",
+              "type": "video",
+              "completed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "Employee expense management",
+      "chapters": [
+        {
+          "title": "What expenses can I submit?",
+          "documents": [
+            {
+              "topic": "What expenses are deductible?",
+              "type": "text",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "title": "Business Trips",
+          "documents": [
+            {
+              "topic": "Travelling Inland",
+              "type": "video",
+              "completed": true
+            },
+            {
+              "topic": "Travelling Abroad",
+              "type": "video",
+              "completed": true
+            },
+            {
+              "topic": "Transportation Means",
+              "type": "video",
+              "completed": true
+            }
+          ]
+        },
+        {
+          "title": "Business lunch / dinner",
+          "documents": [
+            {
+              "topic": "Meals around the office",
+              "type": "text",
+              "completed": false
+            },
+            {
+              "topic": "Meals while on a business trip",
+              "type": "video",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "title": "Hosting company events with more than five people",
+          "documents": [
+            {
+              "topic": "How much in advance do I need to plan my event?",
+              "type": "text",
+              "completed": false
+            },
+            {
+              "topic": "How to submit a planning request",
+              "type": "video",
+              "completed": false
+            },
+            {
+              "topic": "Limits and thresholds",
+              "type": "video",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

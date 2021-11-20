@@ -1,5 +1,5 @@
 import Accordion from "../Accordion";
-import ReactDOM from "react-dom";
+import { render, screen, within } from "@testing-library/react";
 
 const componentProps = {
   active: "Big Fish in the sea",
@@ -13,15 +13,5 @@ const componentProps = {
 };
 
 it("should render without breaking", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<Accordion {...componentProps} />, div);
-});
-
-it("should render all documents in a list within the accordion", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<Accordion {...componentProps} />, div);
-
-  const list = document.querySelector(".accordion");
-  console.log({ list });
-  // expect(list.find('ul').children()).toHaveLength(5)
+  render(<Accordion {...componentProps} />);
 });

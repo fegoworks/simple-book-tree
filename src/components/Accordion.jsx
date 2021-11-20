@@ -23,6 +23,7 @@ export default function CourseAccordion({ chapter, active, setActive }) {
               documents.map((document, index) => {
                 return (
                   <li
+                    data-testId="listitem"
                     key={index}
                     className={`blue-hover ${
                       document?.completed && "completed"

@@ -2,7 +2,10 @@
 .App {
   padding: 0 0.75rem;
   hr {
-    background-color: $very-light-grey;
+    background: $very-light-grey;
+    margin: 1.5rem 0;
+    height: 1px;
+    border: unset;
   }
   
   .blue-hover {

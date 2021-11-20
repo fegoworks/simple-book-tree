@@ -8,9 +8,10 @@ const Course = ({ course, active, setActive }) => {
       <div className="title">{title}</div>
       <div>
         {chapters?.length > 0 &&
-          chapters.map((chapter) => {
+          chapters.map((chapter, index) => {
             return (
               <Accordion
+                key={index}
                 chapter={chapter}
                 active={active}
                 setActive={setActive}

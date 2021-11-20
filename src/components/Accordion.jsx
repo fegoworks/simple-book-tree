@@ -20,9 +20,10 @@ export default function CourseAccordion({ chapter, active, setActive }) {
         <AccordionDetails>
           <ul className="document-list">
             {documents?.length > 0 &&
-              documents.map((document) => {
+              documents.map((document, index) => {
                 return (
                   <li
+                    key={index}
                     className={`blue-hover ${
                       document?.completed && "completed"
                     }`}

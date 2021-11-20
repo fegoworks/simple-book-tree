@@ -51,18 +51,18 @@
           "documents": [
             {
               "topic": "Travelling Inland",
-              "type": "video",
+              "type": "file",
               "completed": true
             },
             {
               "topic": "Travelling Abroad",
-              "type": "video",
+              "type": "file",
               "completed": true
             },
             {
               "topic": "Transportation Means",
-              "type": "video",
-              "completed": true
+              "type": "file",
+              "completed": false
             }
           ]
         },
@@ -91,12 +91,12 @@
             },
             {
               "topic": "How to submit a planning request",
-              "type": "video",
+              "type": "file",
               "completed": false
             },
             {
               "topic": "Limits and thresholds",
-              "type": "video",
+              "type": "file",
               "completed": false
             }
           ]

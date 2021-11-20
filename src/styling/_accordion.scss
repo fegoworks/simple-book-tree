@@ -23,6 +23,13 @@
             }
           }
         }
+        &:hover {
+          .icon {
+            svg path {
+              fill: $white;
+            }
+          }
+        }
       }
 
       .document {

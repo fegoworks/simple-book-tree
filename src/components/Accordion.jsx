@@ -36,7 +36,7 @@ export default function CourseAccordion({ chapter, active, setActive }) {
                       <span>{document?.topic}</span>
                     </div>
                     {document?.completed && (
-                      <span className="icon">
+                      <span className="check-icon">
                         <CheckIcon />
                       </span>
                     )}

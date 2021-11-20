@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 .App {
   padding: 0 0.75rem;
   hr {
@@ -7,15 +7,16 @@
     height: 1px;
     border: unset;
   }
-  
+
   .blue-hover {
     &:hover {
       background-color: $blue;
-      color: whitesmoke !important;
-      .icon {
+      color: $white !important;
+      .icon,
+      .check-icon {
         svg {
           path {
-            fill: whitesmoke;
+            fill: $white;
           }
         }
       }

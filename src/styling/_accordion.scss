@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 .accordion {
   .document-list {
@@ -15,7 +15,14 @@
       padding: 0.5rem;
 
       &.completed {
-        color:$black;
+        color: $black;
+        .icon {
+          svg {
+            path {
+              fill: $black;
+            }
+          }
+        }
       }
 
       .document {
@@ -29,8 +36,8 @@
     }
   }
 
-  // overwrite accordion styling
-  .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  // overwrite mui accordion styling
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
     box-shadow: none;
     .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
       transform: rotate(-90deg);
@@ -40,7 +47,7 @@
         }
       }
     }
-    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
       padding: unset;
       min-height: 2rem;
       .css-o4b71y-MuiAccordionSummary-content {

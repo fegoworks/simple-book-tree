@@ -1,5 +1,8 @@
 @import "./variables.scss";
 .App {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 0.8125rem;
   padding: 0 0.75rem;
   hr {
     background: $very-light-grey;
